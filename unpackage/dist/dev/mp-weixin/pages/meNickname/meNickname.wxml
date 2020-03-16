@@ -1,0 +1,1 @@
+<view class="content data-v-e86c7750"><input data-event-opts="{{[['input',[['setNickname',['$event']]]]]}}" class="uni-input data-v-e86c7750" value="{{nickname}}" bindinput="__e"/><view class="btn data-v-e86c7750"><button type="primary" data-event-opts="{{[['tap',[['onSubmit',['$event']]]]]}}" bindtap="__e" class="data-v-e86c7750">提交</button></view></view>

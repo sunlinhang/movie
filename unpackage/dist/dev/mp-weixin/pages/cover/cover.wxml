@@ -1,0 +1,1 @@
+<view class="black data-v-f4e23170"><image class="cover data-v-f4e23170" src="{{cover}}" mode="widthFix" data-event-opts="{{[['longpress',[['operator',['$event']]]]]}}" bindlongpress="__e"></image></view>

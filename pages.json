@@ -1,0 +1,131 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				},
+				"h5": {
+					"titleNView": false
+				},
+				"enablePullDownRefresh": true   // 开启单页面下拉刷新  
+			}
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索预告片"
+			}
+		}, {
+			"path": "pages/me/me",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				},
+				"h5": {
+					"titleNView": false
+				},
+				"navigationBarTitleText": "个人中心",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ffd655"
+			}
+		},{
+            "path" : "pages/detail/detail",
+            "style" : {
+				"app-plus": {
+					"titleNView": {
+						"type":"transparent",
+						"buttons": [
+							{
+								"type": "share"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/cover/cover",
+            "style" : {
+				"navigationBarTitleText": "封面",
+				"navigationBarBackgroundColor": "#000000",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/registLogin/registLogin",
+            "style" : {
+				"navigationBarTitleText": "登录/注册"
+			}
+        }
+        ,{
+            "path" : "pages/settings/settings",
+            "style" : {
+				"navigationBarTitleText": "我的账号",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ffd655"
+			}
+        }
+        ,{
+            "path" : "pages/sex/sex",
+            "style" : {
+				"navigationBarTitleText": "设置性别",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ffd655"
+			}
+        }
+        ,{
+            "path" : "pages/meBirthday/meBirthday",
+            "style" : {
+				"navigationBarTitleText": "设置生日",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ffd655"
+			}
+        }
+        ,{
+            "path" : "pages/meNickname/meNickname",
+            "style" : {
+				"navigationBarTitleText": "设置名字",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ffd655"
+			}
+        }
+        ,{
+            "path" : "pages/operator/operator",
+            "style" : {
+				"navigationBarTitleText": "设置头像",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ffd655"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "电影预告",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectionColor": "#2d3d5c",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath":"static/tabBarIco/index.png",
+				"selectedIconPath":"static/tabBarIco/index_sel.png"
+			},
+			{
+				"pagePath": "pages/search/search",
+				"text": "搜索",
+				"iconPath":"static/tabBarIco/search.png",
+				"selectedIconPath":"static/tabBarIco/search_sel.png"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"text": "我的",
+				"iconPath":"static/tabBarIco/me.png",
+				"selectedIconPath":"static/tabBarIco/me_sel.png"
+			}
+		]
+	}
+}
